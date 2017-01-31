@@ -2,14 +2,12 @@
   "use strict";
 
 $(function(){
-  $('.box-header ul').hide();
+  $('.dropdown ol').hide();
 
-  $('.box-header h1').click(function(){
-  $('.box-header ul').slideUp();
-  $(this).next().slideDown();
+  $('.dropdown h1').click(function(){
+    $('.dropdown ol').slideUp();
+    $(this).next().slideDown();
     });
-
-
 });
 
 })(jQuery);
